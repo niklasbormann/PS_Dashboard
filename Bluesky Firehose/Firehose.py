@@ -168,4 +168,4 @@ def run_data_collection(StopTimer, Filters, filename):
 
 if __name__ == '__main__':
     Filter = ["Ukraine", "Russia"]
-    run_data_collection(1800 , Filter, "Dashboardtestdata.json")
+    run_data_collection(28800, Filter, "Dashboardtestdata.json")

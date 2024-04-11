@@ -9,9 +9,9 @@ client = Elasticsearch(hosts='https://localhost:9200',
 
 F = ["Ukraine", "Russia", "kyiv"]
 
-run_data_collection(10, F, 'data.json')
+#run_data_collection(10, F, 'data.json')
 
-testdata = open('data.json')
+testdata = open('Dashboardtestdata.json')
 
 doc = json.load(testdata)
 
